@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Blog de Modèles en Perles de Rocailles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f6fa;
+            color: #2f3640;
+        }
+        header {
+            background: linear-gradient(135deg, #6c5ce7, #00cec9);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        nav {
+            background: #2d3436;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card-content h3 {
+            margin: 0 0 10px;
+        }
+        .tag {
+            display: inline-block;
+            background: #6c5ce7;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-size: 12px;
+            margin-right: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2d3436;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>✨ Mon Blog de Modèles en Perles de Rocailles ✨</h1>
+    <p>Catalogue personnel de mes créations et modèles</p>
+</header>
+
+<nav>
+    <a href="#">Accueil</a>
+    <a href="#modeles">Modèles</a>
+    <a href="#categories">Catégories</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="modeles">
+    <h2>📿 Mes modèles</h2>
+
+    <div class="grid">
+        <!-- Ajoute tes modèles ici -->
+    </div>
+</div>
+
+<footer id="contact">
+    <p>© 2026 - Mon blog de perles de rocailles</p>
+    <p>Créé avec ❤️ pour mes créations artisanales</p>
+</footer>
+
+</body>
+</html>
